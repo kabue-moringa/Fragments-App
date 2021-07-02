@@ -1,3 +1,5 @@
+package com.MooDialogFragment.fragment_app;
+
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,7 +9,7 @@ import androidx.fragment.app.DialogFragment;
 
 import com.MooDialogFragment.fragment_app.R;
 
-public class MoodDialogFragment extends DialogFragment implements MoodDialogFragments {
+public class MoodDialogFragment extends DialogFragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
